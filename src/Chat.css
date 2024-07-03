@@ -1,0 +1,97 @@
+.chat{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex: 0.65;
+}
+
+.chat__header{
+    display: flex;
+    padding: 6.7px 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #20252e;
+    top:0;
+}
+
+.chat__headerInfo{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.chat__headerRight{
+    display: flex;
+    flex-direction: row;
+}
+
+.chat__body{
+    background-image: url('https://wallpaperaccess.com/full/2224368.png');
+    flex: 1;
+    background-repeat: repeat;
+    background-position: center;
+    overflow: scroll;
+    overflow: hidden;
+    padding: 10px 10px;
+}
+
+.chat__footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #20252e;
+    bottom: 0;
+    height: 62px;
+}
+
+.chat__footer>input{
+    flex: 1;
+    background-color: #2d434d;;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 7px;
+    color: white;
+    outline-width: 0;
+}
+
+.chat__message{
+    position: relative;
+    width: fit-content;
+    background-color: #0c1317;
+    margin-bottom: 10px;
+}
+
+.chat__messageName{
+    position: absolute;
+    top: -15px;
+    font-weight: 800;
+    font-size: xx-small;
+}
+
+.chat__messageTimestamp{
+    margin-left: 10px;
+    font-size: xx-small;
+}
+
+.chat__receiver{
+    margin-left: auto;
+    background-color: #00a884;
+}
+
+.chat__message{
+    margin-top: 10px;
+    border-radius:5px;
+    padding: 5px 5px;
+
+}
+
+.chat__footerButton{
+    display: none;
+}
+
+.chat__infoStatus{
+    color: gray;
+    font-size: 12px;
+}
